@@ -1,6 +1,6 @@
 [package]
 name = "rivik_assets"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -15,7 +15,7 @@ once_cell = "1.16.0"
 uriparse = { version = "0.6.4", features = ["serde"] }
 log = "0.4.17"
 image = "0.24.5"
-reerror = { version = "0.1", registry = "rapdorian" }
+reerror = { version = "0.2", features = ["image"], registry = "rapdorian" }
 
 [dev-dependencies]
 env_logger = "0.10.0"
